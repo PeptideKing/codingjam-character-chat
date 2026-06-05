@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmazonPeptide - Buy Research Peptides</title>
+    <!-- Use standard web fonts similar to screenshot -->
+    <link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Embeddable Widget Stylesheet -->
+    <link rel="stylesheet" href="widget.css">
+</head>
+<body>
+    <!-- Top Header -->
+    <header class="top-header">
+        <div class="header-main">
+            <!-- Logo area -->
+            <div class="logo-container">
+                <h1 class="logo">
+                    <span class="logo-amazon">Amazon</span><span class="logo-peptide">Peptide</span>
+                </h1>
+                <div class="logo-arrow">
+                    <svg viewBox="0 0 160 20" width="160" height="20">
+                        <path d="M10,5 Q80,18 150,5" fill="none" stroke="#FF9900" stroke-width="3.5" stroke-linecap="round"/>
+                        <polygon points="150,5 142,0 144,8" fill="#FF9900"/>
+                    </svg>
+                </div>
+            </div>
+            
+            <!-- Headline promo -->
+            <div class="promo-headline">
+                Get what your lab needs.<br>
+                <span class="highlight">16 research peptides. Save up to 40%.</span>
+            </div>
+            
+            <!-- Right actions -->
+            <div class="header-right">
+                <div class="search-tabs">
+                    <button class="tab-btn active">PEPTIDES</button>
+                    <button class="tab-btn">SUPPLIES</button>
+                </div>
+                <div class="cart-account">
+                    <span class="cart-icon">🛒</span>
+                    <span class="cart-text"><strong>(1)</strong> | <a href="#">Your Account</a> | <a href="#">Help</a></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#">Catalog Search</a></li>
+            <li><a href="#">Browse Categories</a></li>
+            <li><a href="#">Bestsellers</a></li>
+            <li><a href="#">New Lots</a></li>
+            <li><a href="#">COA Verify</a></li>
+            <li><a href="#">Help & FAQ</a></li>
+            <li><a href="#">Your Account</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Workspace Layout -->
+    <div class="layout-container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <!-- Keyword Search -->
+            <div class="sidebar-box">
+                <h3>Keyword Search</h3>
+                <div class="search-input-group">
+                    <input type="text" id="sidebar-search" value="">
+                    <button class="go-btn">Go!</button>
+                </div>
+                <div class="radio-group">
+                    <label><input type="radio" name="search-type" checked> All Peptides</label>
+                    <label><input type="radio" name="search-type"> By Name</label>
+                    <label><input type="radio" name="search-type"> By Catalog No.</label>
+                </div>
+                <p class="search-hint">Full search: <a href="#">Peptides</a> or <a href="#">Supplies</a></p>
+            </div>
+
+            <!-- Browse by Category -->
+            <div class="sidebar-box">
+                <h3>Browse peptides by category</h3>
+                <select id="category-select">
+                    <option value="metabolic">Metabolic</option>
+                    <option value="recovery">Recovery & Repair</option>
+                    <option value="longevity">Longevity</option>
+                </select>
+                <button class="go-btn category-go">Go!</button>
+            </div>
+
+            <!-- Bulk Program Promo -->
+            <div class="sidebar-link-promo">
+                <span class="promo-icon">$</span>
+                <div>
+                    <strong>Join the Bulk Program</strong> -- standing lots & volume pricing for your lab.
+                </div>
+            </div>
+
+            <!-- Protocol Picks -->
+            <div class="sidebar-link-promo">
+                <span class="promo-icon">🧪</span>
+                <div>
+                    Plan your study with our <a href="#">Protocol Picks</a>.
+                </div>
+            </div>
+
+            <!-- Featured Lots -->
+            <div class="sidebar-link-promo">
+                <span class="promo-icon">🏅</span>
+                <div>
+                    Visit <a href="#">Featured Lots</a> for this month's highest-purity batches.
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <h2 class="current-date">Friday, June 5, 2026</h2>
+
+            <!-- Welcome Box -->
+            <div class="welcome-banner">
+                <div class="lock-icon">🔒</div>
+                <div class="welcome-text">
+                    <strong>Welcome, first-time researchers: <a href="#">click here</a>.</strong><br>
+                    Learn about AmazonPeptide's <a href="#">quality & COA guarantee</a> and our research-use-only policy.
+                </div>
+            </div>
+
+            <!-- Featured Product -->
+            <section class="featured-section">
+                <div class="vial-graphic">
+                    <div class="vial-container">
+                        <div class="vial-cap"></div>
+                        <div class="vial-body">
+                            <div class="vial-liquid"></div>
+                            <div class="vial-label">Semaglutide</div>
+                        </div>
+                    </div>
+                    <div class="off-badge">31%<br>off</div>
+                </div>
+                
+                <div class="featured-details">
+                    <a href="#" class="section-link">What We're Featuring</a>
+                    <h3 class="product-title">Semaglutide <span class="badge-new">NEW LOT</span></h3>
+                    <p class="product-description">
+                        Bench season is here. Our most-requested GLP-1 research analog ships as a <em>5 mg</em> lyophilized vial at <strong>&ge;99.4% purity</strong>, each lot characterized by HPLC and mass spectrometry. Every order carries a verifiable certificate of analysis you can take right back to the batch. Check out the <a href="#">AmazonPeptide Hot 25</a>. Updated weekly!
+                    </p>
+                </div>
+            </section>
+
+            <!-- Second Product -->
+            <section class="product-section">
+                <a href="#" class="section-link">In Recovery & Repair</a>
+                <h3 class="product-title bpc-color">BPC-157</h3>
+                <p class="product-description">
+                    Body-protection compound fragment. A favorite of connective-tissue research groups, this pentadecapeptide ships at <strong>&ge;99.6% purity</strong> and stores cold and dry for well over two years. Read the <a href="#">method & spec sheet</a>, or <a href="#">verify lot BP-2605-D</a> before you order.
+                </p>
+            </section>
+        </main>
+    </div>
+
+    <!-- Embeddable Chat Widget HTML -->
+    <div id="peptide-chat-widget" class="peptide-chat-container collapsed">
+        <!-- Collapsed Launcher -->
+        <div class="chat-launcher" id="chat-launcher">
+            <span class="chat-launcher-text">Help & FAQ / Chat 💬</span>
+        </div>
+
+        <!-- Expanded Chat Box -->
+        <div class="chat-panel" id="chat-panel">
+            <!-- Header -->
+            <div class="chat-header">
+                <div class="chat-header-left">
+                    <span class="chat-header-logo">Amazon<span class="green-text">Peptide</span></span>
+                    <span class="chat-coa-badge">COA Verify</span>
+                </div>
+                <button class="chat-close-btn" id="chat-close-btn">&times;</button>
+            </div>
+            
+            <!-- Warning Banner -->
+            <div class="chat-warning-banner">
+                Research Use Only. All responses are theoretical and anecdotal.
+            </div>
+
+            <!-- Messages Feed -->
+            <div class="chat-feed" id="chat-feed">
+                <!-- Messages will be injected here -->
+            </div>
+
+            <!-- Input area -->
+            <div class="chat-input-area">
+                <div class="chat-input-container">
+                    <input type="text" id="chat-input" placeholder="Type a theoretical research question..." maxlength="200">
+                    <button class="chat-go-btn" id="chat-go-btn">Go!</button>
+                </div>
+                <div class="chat-footer-status">
+                    <span id="chat-session-count">Session: 0/5 messages</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Embeddable Widget Script -->
+    <script src="widget.js"></script>
+    <script>
+        // Initialize the widget
+        document.addEventListener('DOMContentLoaded', () => {
+            window.AmazonPeptideChat.init();
+        });
+    </script>
+</body>
+</html>
